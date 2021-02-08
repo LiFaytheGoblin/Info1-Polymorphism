@@ -1,3 +1,87 @@
-# Info1-Polymorphism
+# A Lab on Polymorphism
 
-Example code for an e-learning unit on polymorphism
+This page helps you to follow the lab on Polymorphism. It is a synchronous lab, but you can come here to read on what to do in the exercises or to do the lab on your own. If you are working on your own, look out for the **Async** markers.
+
+## 1. Warm Up (15 Min.)
+
+**Async**: 
+Download the sample code from this repository and open it in BlueJ.
+
+Try to answer the following questions:
+* Give examples to explain the difference between a class and an object.
+* Give examples for an inheritance hierarchy in real life.
+* How is implementing an interface different from inheriting from a class?
+
+ Explore the code and if needed adjust your understanding of classes, objects, inheritance and interfaces.
+
+## 2. Intro I. - Definition and origin of Polymorphism
+
+**Async**:
+
+Answer the following question:
+* Have you heard about Polymorphism? What might it refer to?
+
+Read the following definitions for Polymorphism:
+* "Polymorphism, in biology, a discontinuous genetic variation resulting in the occurrence of several different forms or types of individuals among the members of a single species." (Source: [https://www.britannica.com/science/polymorphism-biology](Britannica))
+* "Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways." (Source: [https://www.w3schools.com/java/java_polymorphism.asp](W3Schools))
+
+Answer the following questions:
+* Name real world analogies for Polymorphism.
+
+## 3. Intro II - Types of Polymorphism and examples
+
+**Async**:
+
+Look at the following method of a Carnivore class:
+'''
+public void speak (int howOften){
+    for(int i = 0; i < howOften; i++) {
+        System.out.println("hello");
+    }
+}
+'''
+
+Look at the following two methods of a Cat class, that inherits from Carnivore:
+'''
+public void speak (int nrPurrs){
+    for(int i = 0; i < nrPurrs; i++) {
+        System.out.println("purr");
+    }
+}
+
+public void speak (String sound, int nrPurrs){
+    for(int i = 0; i < nrPurrs; i++) {
+        System.out.println(sound);
+    }
+}
+'''
+
+Look at the following code in a main()-method: 
+'''
+Carnivore carnivore = new Carnivore();
+Cat cat = new Cat();
+
+Carnivore[] hunters = new Carnivore[] { carnivore, cat };
+
+for (Carnivore hunter : hunters){ 
+    hunter.speak(); 
+}
+
+// ...
+
+Carnivore otherCat = new Cat();
+otherCat.speak();
+'''
+
+Answer the following questions (you can put the code above into the sample code to see whether you guessed correctly):
+* How do the two methods in the Cat class differ from each other?
+* What happens if I call 'carnivore.speak(2);' on an object of type Carnivore?
+* What happens if I call 'cat.speak(2);' on an object of type Cat?
+* What happens if I call 'cat.speak('meow', 2);" on an object of type Cat?
+* What happens if I call the main()-method?
+* What do you think, why can I put objects of type Carnivore and Cat into the hunters array in the main()-method?
+
+Read the following explanations:
+* When Cat implements a method with the same signature as the parent class, that is called **method overriding**.
+* When Cat implements different methods with almost the same signature but different parameters, that is called **method overloading**.
+* Polymorphism enables the following when referencing objects: Objects of a child class may be used the same way an object of the parent class is used. In this example, both carnivore and cat are treated as objects of type Carnivore by being added to the array of type Carnivore (hunters), but the method speak() is being called from the type of the object of cat, Cat.
