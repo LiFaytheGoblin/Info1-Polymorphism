@@ -21,8 +21,8 @@ Answer the following question:
 * Have you heard about Polymorphism? What might it refer to?
 
 Read the following definitions for Polymorphism:
-* "Polymorphism, in biology, a discontinuous genetic variation resulting in the occurrence of several different forms or types of individuals among the members of a single species." (Source: [https://www.britannica.com/science/polymorphism-biology](Britannica))
-* "Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways." (Source: [https://www.w3schools.com/java/java_polymorphism.asp](W3Schools))
+* "Polymorphism, in biology, a discontinuous genetic variation resulting in the occurrence of several different forms or types of individuals among the members of a single species." (Source: [https://www.britannica.com/science/polymorphism-biology](https://www.britannica.com/science/polymorphism-biology))
+* "Inheritance lets us inherit attributes and methods from another class. Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways." (Source: [https://www.w3schools.com/java/java_polymorphism.asp](https://www.w3schools.com/java/java_polymorphism.asp))
 
 Answer the following question:
 * Name real world analogies for Polymorphism.
