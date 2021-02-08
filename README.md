@@ -35,7 +35,7 @@ Look at the following method of the Carnivore class:
 ```
 public void speak (int howOften){
     for(int i = 0; i < howOften; i++) {
-        System.out.println("hello");
+        System.out.println("Rawr");
     }
 }
 ```
@@ -44,7 +44,7 @@ Look at the following two methods of the Cat class, that inherits from Carnivore
 ```
 public void speak (int nrPurrs){
     for(int i = 0; i < nrPurrs; i++) {
-        System.out.println("purr");
+        System.out.println("Purr");
     }
 }
 
