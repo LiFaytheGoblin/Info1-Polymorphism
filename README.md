@@ -29,7 +29,7 @@ Answer the following question:
 
 ### II. Concepts and Examples
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/Introduction](Introduction) and open it in BlueJ.
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces](Introduction) and open it in BlueJ.
 
 Look at the following method of the Carnivore class:
 ```
@@ -89,7 +89,7 @@ Think about the following explanations:
 
 ### I. Riddle (20 Min)
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/Riddle](Riddle) and open it in BlueJ. Do not run the program yet. 
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/ObjectsClassesInheritanceInterfaces/Riddle.java](Riddle) and open it in BlueJ. Do not run the program yet. 
 
 Answer the following question:
 * What will be printed after each of the printing commands and why?
@@ -98,7 +98,7 @@ Run the code to see whether you were right.
 
 ### II. Design (20 Min)
 
-Download the [UML class diagram](https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Exercise2_Class_Diagram.png) and either upload it into a miro board for collaborative editing or put it into an image editing software of your choice. This diagram represents the relationship between different types of cups and liquids.
+Download the UML class diagram [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Exercise2ClassDiagram.png](https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Exercise2ClassDiagram.png) and either upload it into a miro board for collaborative editing or put it into an image editing software of your choice. This diagram represents the relationship between different types of cups and liquids.
 
 Answer the following questions:
 * Take the following elements: Glass Cup, Tumbler, Liquid, Water, Coffee, Soy Milk. If those were classes, what relationships would they have with each other?
