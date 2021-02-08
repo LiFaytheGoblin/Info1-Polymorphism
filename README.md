@@ -1,6 +1,6 @@
 # A Unit on Polymorphism
 
-This page helps you to follow the lab on Polymorphism. It is a synchronous e-learning unit, but you can come here to read on what to do in the exercises or to do the unit asynchronousely on your own. If you do the e-learning unit synchronousely, you have the advantages of being able to work with your commilitones, to ask questions and get immediate answers and to participate in the plenum discussions of the exercise solutions, to get immediate feedback on your understanding.
+This page helps you to follow the unit on Polymorphism. It is a synchronous e-learning unit, but you can come here to read on what to do in the exercises or to do the unit asynchronousely on your own. If you do the e-learning unit synchronousely, you have the advantages of being able to work with your commilitones, to ask questions and get immediate answers and to participate in the plenum discussions of the exercise solutions, to get immediate feedback on your understanding.
 
 ## 1. Warm Up (15 Min)
 
