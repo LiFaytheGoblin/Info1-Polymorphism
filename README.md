@@ -29,7 +29,7 @@ Answer the following question:
 
 ### II. Concepts and Examples
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces](https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces) and open it in BlueJ.
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces](ObjectsClassesInheritanceInterfaces) and open it in BlueJ.
 
 Look at the following method of the Carnivore class:
 ```
