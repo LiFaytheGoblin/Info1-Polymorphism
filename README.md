@@ -2,7 +2,7 @@
 
 This page helps you to follow the lab on Polymorphism. It is a synchronous lab, but you can come here to read on what to do in the exercises or to do the lab asynchronousely on your own. 
 
-## 1. Warm Up (15 Min.)
+## 1. Warm Up (15 Min)
 
 Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces](ObjectsClassesInheritanceInterfaces) and open it in BlueJ.
 
@@ -105,13 +105,13 @@ Answer the following questions:
 * Add the elements as classes to the given UML.
 * After adding the classes to the UML, describe where polymorphism is made use of.
 
-## Wrap Up
+## Wrap Up (5 Min)
 
 Reflect on the following questions:
 * "What do you now know about polymorphism?"
 * "When is polymorphism useful?"
 
-## Graded Homework
+## Graded Homework (60 Min)
 
 Create a cheat sheet containing at the minimum the definitions of polymorph variables, dynamic binding, method overriding and method overloading and a code example for each definition. You can come up with your own scenario for these examples or make one around the theme of ball sports games. You are not allowed to use one of the scenarios covered in this unit. To see whether your code examples work the way you expect it makes sense to test them!
 
