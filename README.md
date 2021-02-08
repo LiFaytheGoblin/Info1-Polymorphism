@@ -98,7 +98,7 @@ Run the code to see whether you were right.
 
 ### II. Design (20 Min)
 
-Download the UML class diagram [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Exercise2_Class_Diagram.png] and either upload it into a miro board for collaborative editing or put it into an image editing software of your choice. This diagram represents the relationship between different types of cups and liquids.
+Download the [UML class diagram](https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Exercise2_Class_Diagram.png) and either upload it into a miro board for collaborative editing or put it into an image editing software of your choice. This diagram represents the relationship between different types of cups and liquids.
 
 Answer the following questions:
 * Take the following elements: Glass Cup, Tumbler, Liquid, Water, Coffee, Soy Milk. If those were classes, what relationships would they have with each other?
