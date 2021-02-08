@@ -33,16 +33,16 @@ Answer the following questions:
 **Async**:
 
 Look at the following method of a Carnivore class:
-'''
+```
 public void speak (int howOften){
     for(int i = 0; i < howOften; i++) {
         System.out.println("hello");
     }
 }
-'''
+```
 
 Look at the following two methods of a Cat class, that inherits from Carnivore:
-'''
+```
 public void speak (int nrPurrs){
     for(int i = 0; i < nrPurrs; i++) {
         System.out.println("purr");
@@ -54,10 +54,10 @@ public void speak (String sound, int nrPurrs){
         System.out.println(sound);
     }
 }
-'''
+```
 
 Look at the following code in a main()-method: 
-'''
+```
 Carnivore carnivore = new Carnivore();
 Cat cat = new Cat();
 
@@ -71,17 +71,17 @@ for (Carnivore hunter : hunters){
 
 Carnivore otherCat = new Cat();
 otherCat.speak();
-'''
+```
 
 Answer the following questions (you can put the code above into the sample code to see whether you guessed correctly):
 * How do the two methods in the Cat class differ from each other?
-* What happens if I call 'carnivore.speak(2);' on an object of type Carnivore?
-* What happens if I call 'cat.speak(2);' on an object of type Cat?
-* What happens if I call 'cat.speak('meow', 2);" on an object of type Cat?
-* What happens if I call the main()-method?
-* What do you think, why can I put objects of type Carnivore and Cat into the hunters array in the main()-method?
+* What happens if I call `carnivore.speak(2);` on an object of type Carnivore?
+* What happens if I call `cat.speak(2);` on an object of type Cat?
+* What happens if I call `cat.speak('meow', 2);` on an object of type Cat?
+* What happens if I call the `main()`-method?
+* What do you think, why can I put objects of type Carnivore and Cat into the hunters array in the `main()`-method?
 
 Read the following explanations:
 * When Cat implements a method with the same signature as the parent class, that is called **method overriding**.
 * When Cat implements different methods with almost the same signature but different parameters, that is called **method overloading**.
-* Polymorphism enables the following when referencing objects: Objects of a child class may be used the same way an object of the parent class is used. In this example, both carnivore and cat are treated as objects of type Carnivore by being added to the array of type Carnivore (hunters), but the method speak() is being called from the type of the object of cat, Cat.
+* Objects of a child class may be used the same way an object of the parent class is used. In this example, both carnivore and cat are treated as objects of type Carnivore by being added to the array of type Carnivore (hunters), but the method speak() is being called from the type of the object of cat, Cat. When it is only decided at run time which method exactly is called (of class Carnivore or Cat), that principle is called **dynamic binding**.
