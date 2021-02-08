@@ -29,7 +29,7 @@ Answer the following question:
 
 ### II. Concepts and Examples
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces](Introduction) and open it in BlueJ.
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces] and open it in BlueJ.
 
 Look at the following method of the Carnivore class:
 ```
@@ -89,7 +89,7 @@ Think about the following explanations:
 
 ### I. Riddle (20 Min)
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/ObjectsClassesInheritanceInterfaces/Riddle.java](Riddle) and open it in BlueJ. Do not run the program yet. 
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/ObjectsClassesInheritanceInterfaces/Riddle.java] and open it in BlueJ. Do not run the program yet. 
 
 Answer the following question:
 * What will be printed after each of the printing commands and why?
