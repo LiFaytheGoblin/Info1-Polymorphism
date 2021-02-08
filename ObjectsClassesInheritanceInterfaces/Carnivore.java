@@ -37,4 +37,8 @@ public class Carnivore implements Animal //we say we want to implement the Anima
             System.out.println("..rhoo pshuu...");
         }
     }
+
+    public void speak(){
+        System.out.println("Rawr");
+    }
 }

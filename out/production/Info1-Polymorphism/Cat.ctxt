@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Cat
+comment0.text=\n\ A\ Cat\ is\ a\ Carnivore.\ This\ class\ is\ for\ pet\ cats.\n\n\ @author\ Linda\ Fernsel\n\ @version\ 1.0.0\n
+comment1.params=name
+comment1.target=Cat(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Cat\n
+comment2.params=food
+comment2.target=void\ eat(java.lang.String)
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment5.params=
+comment5.target=void\ sayName()
+numComments=6

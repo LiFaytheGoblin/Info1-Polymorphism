@@ -37,4 +37,14 @@ public class Cat extends Carnivore implements Pet
     public void sayName() {
         System.out.println("Meow, I am " + this.name);
     }
+
+    public void speak(){
+        System.out.println("purr");
+    }
+
+    public void speak (int nrPurrs){
+        for(int i = 0; i < nrPurrs; i++) {
+            System.out.println("purr");
+        }
+    }
 }

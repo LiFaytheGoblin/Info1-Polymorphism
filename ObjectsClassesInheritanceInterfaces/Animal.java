@@ -20,4 +20,6 @@ public interface Animal
      * @param  hours amount of time to sleep
      */
     public void sleep(int hours);
+
+    public void speak();
 }
