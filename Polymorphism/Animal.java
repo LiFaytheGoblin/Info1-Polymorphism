@@ -2,7 +2,7 @@
 /**
  * An animal is a life form that does certain things
  *
- * @author Linda
+ * @author Linda, Konrad
  * @version 1.0.0
  */
 public interface Animal
@@ -20,4 +20,10 @@ public interface Animal
      * @param  hours amount of time to sleep
      */
     public void sleep(int hours);
+
+    /**
+     * Animals can speak
+     *
+     */
+    public void speak();
 }

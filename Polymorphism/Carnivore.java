@@ -2,7 +2,7 @@
 /**
  * A Carnivore is an animal that eats meat.
  *
- * @author Linda Fernsel
+ * @author Linda, Konrad
  * @version 1.0.0
  */
 public class Carnivore implements Animal //we say we want to implement the Animal interface
@@ -31,10 +31,22 @@ public class Carnivore implements Animal //we say we want to implement the Anima
         }
     }
 
+    /**
+     * A method that lets the Carnivore sleep.
+     *
+     * @param  hours amount of time to sleep
+     */
     public void sleep(int hours) {
         System.out.println("I am tired...");
         for(int i = 1; i <= hours; i++) {
             System.out.println("..rhoo pshuu...");
         }
+    }
+
+    /**
+     * A method that lets the Carnivore speak.
+     */
+    public void speak(){
+        System.out.println("Rawr");
     }
 }

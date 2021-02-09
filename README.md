@@ -29,7 +29,7 @@ Answer the following question:
 
 ### II. Concepts and Examples
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/ObjectsClassesInheritanceInterfaces](ObjectsClassesInheritanceInterfaces) and open it in BlueJ.
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/tree/main/Polymorphism](Polymorphism) and open it in BlueJ.
 
 Look at the following method of the Carnivore class:
 ```
@@ -55,15 +55,15 @@ public void speak (String sound, int nrPurrs){
 }
 ```
 
-Look at the following code in the main()-method: 
+Look at the following code in the main()-method:
 ```
 Carnivore carnivore = new Carnivore();
 Cat cat = new Cat();
 
 Carnivore[] hunters = new Carnivore[] { carnivore, cat };
 
-for (Carnivore hunter : hunters){ 
-    hunter.speak(); 
+for (Carnivore hunter : hunters){
+    hunter.speak();
 }
 
 // ...
@@ -89,7 +89,7 @@ Think about the following explanations:
 
 ### I. Riddle (20 Min)
 
-Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/ObjectsClassesInheritanceInterfaces/Riddle.java](https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/ObjectsClassesInheritanceInterfaces/Riddle.java) and open it in BlueJ. Do not run the program yet. 
+Download the sample code of the folder [https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Riddle](https://github.com/LiFaytheGoblin/Info1-Polymorphism/blob/main/Riddle) and open it in BlueJ. Do not run the program yet.
 
 Answer the following question:
 * What will be printed after each of the printing commands and why?
@@ -120,4 +120,3 @@ Hand in:
 * Any questions that might have come up
 
 You will be graded with a maximum of 4 stars and be given a feedback. If your cheat sheet is especially good, it will be uploaded into the honorable gallery of great cheat sheets, and you get an extra star for it.
-
