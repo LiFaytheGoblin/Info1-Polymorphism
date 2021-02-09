@@ -32,11 +32,11 @@ public class Demonstration
       // Output: "Purr"
 
       // Objects of child type being referenced as objects of parent type
-      System.out.println("Variable of Parent type references a child instantiation, c is perceived as a cat and purrs");
+      System.out.println("Variable of Parent type references a child instantiation; in runtime c is perceived as a cat and purrs");
       Carnivore otherCat = new Cat("Cat");
-      otherCat.speak(); // Outputs "rawr"
+      otherCat.speak(); // Outputs "purr"
 
       // Try uncommenting the next line. What happens? Why?
-      // c.speak(2);
+      // otherCat.speak(2);
     }
 }
