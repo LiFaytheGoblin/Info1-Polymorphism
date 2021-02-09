@@ -1,4 +1,5 @@
-.class
+*.class
+*.ctx
 .idea/
 /out/production
 .iml

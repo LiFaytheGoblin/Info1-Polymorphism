@@ -25,7 +25,24 @@ public class Cat extends Carnivore implements Pet
         }
     }
 
-    // The Cat class needs to implement the methods from the interface
+    // Overriding the parent's speak method:
+    public void speak(){
+        System.out.println("purr");
+    }
+
+    // Overloading the speak method
+    /**
+     * A method that lets the Cat purr a certain amount of times.
+     *
+     * @param  nrPurrs  amount of purrs
+     */
+    public void speak (int nrPurrs){
+        for(int i = 0; i < nrPurrs; i++) {
+            System.out.println("purr");
+        }
+    }
+
+    // The Cat class needs to implement the methods from the Pet interface
     public void setName(String name) {
         this.name = name;
     }
